@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NavhostNavigation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="exit_the_app">Exit the app</string>
+    <string name="back_to_home_fragment">Back To Home Fragment</string>
+    <string name="home_fragments">Home Fragments</string>
+    <string name="tap_for_the_next_fragment">Tap For The Next Fragment</string>
+    <string name="third_fragment">Third Fragment</string>
+    <string name="second_fragment">Second Fragment</string>
+</resources>

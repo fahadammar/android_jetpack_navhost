@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="fragments.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical|center_horizontal"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_fragments"
+            android:textColor="@color/purple_500"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:autoSizeTextType="uniform"
+        />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/homeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tap_for_the_next_fragment"
+            app:backgroundTint="@android:color/holo_green_dark"
+            android:shadowColor="@color/purple_500"
+        />
+    </LinearLayout>
+
+
+</FrameLayout>
